@@ -1,0 +1,61 @@
+@use './styles/colors' as *;
+@use './styles/fonts' as *;
+
+
+:root{
+  --font-all: #{$font-all};
+  --font-tag: #{$font-tag};
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-all);
+
+  a{
+    text-decoration: none;
+  }
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  max-width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  --bg-color: #{$bg-color-light};
+  --text-color: #{$text-color-light};
+  --accent-color: #{$accent-color-light};
+  --secondary-color: #{$secondary-color-light};
+
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  &.dark{
+    --bg-color: #{$bg-color-dark};
+  --text-color: #{$text-color-dark};
+  --accent-color: #{$accent-color-dark};
+  --secondary-color: #{$secondary-color-dark};
+  }
+
+  #root{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    .container{
+      position: relative;
+      height: 100vh;
+      width: 70%;
+    }
+  }
+}
