@@ -4,8 +4,20 @@ $text-color-light: #000000;
 $accent-color-light: #0DA380;
 $secondary-color-light: #CACACA;
 
+$fill-1-light: #E6E6E6;
+$fill-2-light: $accent-color-light;
+$fill-3-light: $text-color-light;
+$fill-4-light: $text-color-light;
+$fill-5-light: $bg-color-light;
+
 // Dark mode colors
 $bg-color-dark: #000000;
 $text-color-dark: #FFFFFF;
 $accent-color-dark: #5FF3D1;
-$secondary-color-dark: #CACACA;
+$secondary-color-dark: rgb(202, 202, 202, 0.3);
+
+$fill-1-dark: #E6E6E6;
+$fill-2-dark: $accent-color-dark;
+$fill-3-dark: #2E2E2E;
+$fill-4-dark: #302020;
+$fill-5-dark: $bg-color-dark;

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './NavBar.scss';
 
-export function NavBar(){
+export function NavBar() {
     return <header>
         <div className='logo'>
             <Link to="/">Anirudh Giran</Link>

@@ -34,6 +34,12 @@ body{
   --accent-color: #{$accent-color-light};
   --secondary-color: #{$secondary-color-light};
 
+  --fill-1: #{$fill-1-light};
+  --fill-2: #{$fill-2-light};
+  --fill-3: #{$fill-3-light};
+  --fill-4: #{$fill-4-light};
+  --fill-5: #{$fill-5-light};
+
   background-color: var(--bg-color);
   color: var(--text-color);
 
@@ -42,6 +48,12 @@ body{
   --text-color: #{$text-color-dark};
   --accent-color: #{$accent-color-dark};
   --secondary-color: #{$secondary-color-dark};
+
+  --fill-1: #{$fill-1-dark};
+  --fill-2: #{$fill-2-dark};
+  --fill-3: #{$fill-3-dark};
+  --fill-4: #{$fill-4-dark};
+  --fill-5: #{$fill-5-dark};
   }
 
   #root{
